@@ -15,7 +15,7 @@ peluang=dgeom(x,p)
 peluang
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 ## B
 mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
 ## Jawab 
@@ -23,7 +23,7 @@ mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribu
 mean(rgeom(n = 10000, p=0.20) == 3
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 ## C
 Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
 ## Jawab 
@@ -37,7 +37,7 @@ set.seed(0)
 hist(rgeom(x,p),xlab="X",main="Histogram of Geometric")
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 ## E
 Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
 ## Jawab 
@@ -60,7 +60,7 @@ peluang2=dbinom(sembuh,pasien,p_sembuh,log=FALSE)
 peluang2
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 ## B
 Gambarkan grafik histogram berdasarkan kasus tersebut.
 ## Jawab
@@ -69,7 +69,7 @@ set.seed(0)
 hist(rbinom(sembuh,pasien,p_sembuh),xlab="X",ylab="Frequency",main="Histogram of Binomial")
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 ## C
 Nilai Rataan (μ) dan Varian (σ²) dari DistribusiBinomial.
 ## Jawab
@@ -80,7 +80,7 @@ Var=pasien*p_sembuh*(1-p_sembuh)
 Var
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 # Soal Nomor 3 
 Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis 4,5 bayi lahir di rumah sakit ini setiap hari. (gunakan Distribusi Poisson)
 ## A
@@ -93,7 +93,7 @@ peluang3=dpois(peluang_bayilahir,history_bayilahir)
 peluang3
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 ## B
 simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365)
 ## Jawab
@@ -103,7 +103,7 @@ n=356
 hist(rpois(n,history_bayilahir),main="Histogram of Poisson")
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 ## C
 dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
 ## Jawab
@@ -117,7 +117,7 @@ E
 Var
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 # Soal Nomor 4
 Diketahui nilai x = 2 dan v = 10. Tentukan:
 ## A
@@ -130,7 +130,7 @@ peluang4=dchisq(x,v,ncp=0,log=FALSE)
 peluang4
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 ## B
 Histogram dari Distribusi Chi-Square dengan 100 data random.
 ## Jawab
@@ -139,7 +139,7 @@ set.seed(0)
 hist(rchisq(x,v,n=100),main="Histogram of Chis-quare")
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 ## C
 Nilai Rataan (μ) dan Varian (σ²) dari DistribusiChi-Square.
 ## Jawab
@@ -150,26 +150,26 @@ Var=v*2
 Var
 ```
 **Keterangan**
-## Hasil
+**Hasil**
 # Soal Nomor 5
 Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan
 ## A
 Fungsi Probabilitas dari Distribusi Exponensial
 ## Jawab
 **Keterangan**
-## Hasil
+**Hasil**
 ## B
 Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
 ## Jawab
 **Keterangan**
-## Hasil
+**Hasil**
 ## C
 Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3 Petunjuk:
 ● Gunakan set.seed(1)
 ● Gunakan fungsi bawaan R
 ## Jawab
 **Keterangan**
-## Hasil
+**Hasil**
 
 # Soal Nomor 6
 Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
@@ -187,7 +187,7 @@ X1 = 5
 X2 = 6
 ## Jawab
 **Keterangan**
-## Hasil
+**Hasil**
 ## B
 Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan:
 NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
@@ -195,9 +195,9 @@ Contoh :
 312312312_Rola_Probstat_A_DNhistogram
 ## Jawab
 **Keterangan**
-## Hasil
+**Hasil**
 ## C
 Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
 ## Jawab
 **Keterangan**
-## Hasil
+**Hasil**
