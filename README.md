@@ -2,6 +2,3 @@
 Nama | NRP | Kelas
 -----|-----|------
 Fian Awamiry Maulana | 5025201035 | Probabilitas dan Statistik (C)
-**Fian Awamiry Maulana**
-**5025201035**
-**Probabilitas dan Statistik (C)**
