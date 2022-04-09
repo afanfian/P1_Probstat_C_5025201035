@@ -15,7 +15,7 @@ peluang=dgeom(x,p)
 peluang
 ```
 **Keterangan**  
-**Hasil**
+**Hasil**  
 ## B
 mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
 ## Jawab 
@@ -23,7 +23,7 @@ mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribu
 mean(rgeom(n = 10000, p=0.20) == 3
 ```
 **Keterangan**  
-**Hasil**
+**Hasil**  
 ![1b.png](https://drive.google.com/uc?export=view&id=155gyjLwXgZzcC8SY34sqRgrAR9H1Ljtu)
 ## C
 Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
@@ -38,7 +38,7 @@ set.seed(0)
 hist(rgeom(x,p),xlab="X",main="Histogram of Geometric")
 ```
 **Keterangan**  
-**Hasil**
+**Hasil**  
 Menggunakan seet.seed (0) dia tidak akan berubah 
 ![1d-1.png](https://drive.google.com/uc?export=view&id=1GmBc4bs7hZfeMCpZDvKV-0i67_GQERcU)
 Tidak menggunakan seet seed (0)
@@ -67,7 +67,7 @@ peluang2=dbinom(sembuh,pasien,p_sembuh,log=FALSE)
 peluang2
 ```
 **Keterangan**  
-**Hasil**
+**Hasil**  
 ![2a.png](https://drive.google.com/uc?export=view&id=1tL9zYkASPkuFu_k9YgHmUa_UOHgRuPt8)
 ## B
 Gambarkan grafik histogram berdasarkan kasus tersebut.
@@ -77,7 +77,7 @@ set.seed(0)
 hist(rbinom(sembuh,pasien,p_sembuh),xlab="X",ylab="Frequency",main="Histogram of Binomial")
 ```
 **Keterangan** 
-**Hasil**
+**Hasil**  
 Menggunakan seet.seed (0) dia tidak akan berubah 
 ![2b-1.png](https://drive.google.com/uc?export=view&id=1qf1s006EI6MtmOWH2VbJCt12BSf4sTlj)
 Tidak menggunakan seet seed (0)
@@ -92,7 +92,7 @@ Var=pasien*p_sembuh*(1-p_sembuh)
 Var
 ```
 **Keterangan**  
-**Hasil**
+**Hasil**  
 ![2c.png](https://drive.google.com/uc?export=view&id=1PIBu7wNExc1FpKaxLC6efNShw6tdx20S)
 # Soal Nomor 3 
 Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis 4,5 bayi lahir di rumah sakit ini setiap hari. (gunakan Distribusi Poisson)
@@ -117,7 +117,7 @@ n=356
 hist(rpois(n,history_bayilahir),main="Histogram of Poisson")
 ```
 **Keterangan**  
-**Hasil**
+**Hasil**  
 Menggunakan seet.seed (0) dia tidak akan berubah 
 ![3b-1.png](https://drive.google.com/uc?export=view&id=1BOoLQ_Ohd7uLM97Wt68iuy6E8OSm_XlD)
 Tidak menggunakan seet seed (0)
