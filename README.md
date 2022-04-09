@@ -39,9 +39,9 @@ hist(rgeom(x,p),xlab="X",main="Histogram of Geometric")
 ```
 **Keterangan**  
 **Hasil**  
-Menggunakan seet.seed (0) dia tidak akan berubah 
+Menggunakan seet.seed (0)   dia tidak akan berubah  
 ![1d-1.png](https://drive.google.com/uc?export=view&id=1GmBc4bs7hZfeMCpZDvKV-0i67_GQERcU)
-Tidak menggunakan seet seed (0)
+Tidak menggunakan seet seed (0)  
 ![1d-2.png](https://drive.google.com/uc?export=view&id=15jzc_M6Ap-34kqFSv9iGP5u4lveZgRJ9)
 ## E
 Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
@@ -78,9 +78,9 @@ hist(rbinom(sembuh,pasien,p_sembuh),xlab="X",ylab="Frequency",main="Histogram of
 ```
 **Keterangan** 
 **Hasil**  
-Menggunakan seet.seed (0) dia tidak akan berubah 
+Menggunakan seet.seed (0) dia tidak akan berubah  
 ![2b-1.png](https://drive.google.com/uc?export=view&id=1qf1s006EI6MtmOWH2VbJCt12BSf4sTlj)
-Tidak menggunakan seet seed (0)
+Tidak menggunakan seet seed (0)  
 ![2b-2.png](https://drive.google.com/uc?export=view&id=1uYijFmsTN7cSQnPtOQdEmPBAAkfgVam5)
 ## C
 Nilai Rataan (μ) dan Varian (σ²) dari DistribusiBinomial.
@@ -118,9 +118,9 @@ hist(rpois(n,history_bayilahir),main="Histogram of Poisson")
 ```
 **Keterangan**  
 **Hasil**  
-Menggunakan seet.seed (0) dia tidak akan berubah 
+Menggunakan seet.seed (0) dia tidak akan berubah  
 ![3b-1.png](https://drive.google.com/uc?export=view&id=1BOoLQ_Ohd7uLM97Wt68iuy6E8OSm_XlD)
-Tidak menggunakan seet seed (0)
+Tidak menggunakan seet seed (0)  
 ![3b-1.png](https://drive.google.com/uc?export=view&id=1ncqsdxl6-f8RfRXvegAwyUnuYIHzwQx5)
 ## C
 dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
