@@ -40,9 +40,9 @@ hist(rgeom(x,p),xlab="X",main="Histogram of Geometric")
 **Keterangan**  
 **Hasil**
 Menggunakan seet.seed (0) dia tidak akan berubah 
-![.png](https://drive.google.com/uc?export=view&id=1GmBc4bs7hZfeMCpZDvKV-0i67_GQERcU)
+![1d-1.png](https://drive.google.com/uc?export=view&id=1GmBc4bs7hZfeMCpZDvKV-0i67_GQERcU)
 Tidak menggunakan seet seed (0)
-![.png](https://drive.google.com/uc?export=view&id=15jzc_M6Ap-34kqFSv9iGP5u4lveZgRJ9)
+![1d-2.png](https://drive.google.com/uc?export=view&id=15jzc_M6Ap-34kqFSv9iGP5u4lveZgRJ9)
 ## E
 Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
 ## Jawab 
@@ -52,6 +52,8 @@ E
 var=(1-p)/p^2 
 var
 ```
+**Keterangan**  
+**Hasil**
 # Soal Nomor 2 
 Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
 ## A
@@ -66,7 +68,7 @@ peluang2
 ```
 **Keterangan**  
 **Hasil**
-![.png](https://drive.google.com/uc?export=view&id=1tL9zYkASPkuFu_k9YgHmUa_UOHgRuPt8)
+![2a.png](https://drive.google.com/uc?export=view&id=1tL9zYkASPkuFu_k9YgHmUa_UOHgRuPt8)
 ## B
 Gambarkan grafik histogram berdasarkan kasus tersebut.
 ## Jawab
@@ -77,9 +79,9 @@ hist(rbinom(sembuh,pasien,p_sembuh),xlab="X",ylab="Frequency",main="Histogram of
 **Keterangan** 
 **Hasil**
 Menggunakan seet.seed (0) dia tidak akan berubah 
-![.png](https://drive.google.com/uc?export=view&id=1qf1s006EI6MtmOWH2VbJCt12BSf4sTlj)
+![2b-1.png](https://drive.google.com/uc?export=view&id=1qf1s006EI6MtmOWH2VbJCt12BSf4sTlj)
 Tidak menggunakan seet seed (0)
-![.png](https://drive.google.com/uc?export=view&id=1uYijFmsTN7cSQnPtOQdEmPBAAkfgVam5)
+![2b-2.png](https://drive.google.com/uc?export=view&id=1uYijFmsTN7cSQnPtOQdEmPBAAkfgVam5)
 ## C
 Nilai Rataan (μ) dan Varian (σ²) dari DistribusiBinomial.
 ## Jawab
@@ -91,7 +93,7 @@ Var
 ```
 **Keterangan**  
 **Hasil**
-![.png](https://drive.google.com/uc?export=view&id=1PIBu7wNExc1FpKaxLC6efNShw6tdx20S)
+![2c.png](https://drive.google.com/uc?export=view&id=1PIBu7wNExc1FpKaxLC6efNShw6tdx20S)
 # Soal Nomor 3 
 Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis 4,5 bayi lahir di rumah sakit ini setiap hari. (gunakan Distribusi Poisson)
 ## A
@@ -105,7 +107,7 @@ peluang3
 ```
 **Keterangan**  
 **Hasil**
-![.png](https://drive.google.com/uc?export=view&id=1HGhCWTXy5a9nVZIP6DWbka2Igwkro3_p)
+![3a.png](https://drive.google.com/uc?export=view&id=1HGhCWTXy5a9nVZIP6DWbka2Igwkro3_p)
 ## B
 simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365)
 ## Jawab
@@ -117,9 +119,9 @@ hist(rpois(n,history_bayilahir),main="Histogram of Poisson")
 **Keterangan**  
 **Hasil**
 Menggunakan seet.seed (0) dia tidak akan berubah 
-![.png](https://drive.google.com/uc?export=view&id=1BOoLQ_Ohd7uLM97Wt68iuy6E8OSm_XlD)
+![3b-1.png](https://drive.google.com/uc?export=view&id=1BOoLQ_Ohd7uLM97Wt68iuy6E8OSm_XlD)
 Tidak menggunakan seet seed (0)
-![.png](https://drive.google.com/uc?export=view&id=1ncqsdxl6-f8RfRXvegAwyUnuYIHzwQx5)
+![3b-1.png](https://drive.google.com/uc?export=view&id=1ncqsdxl6-f8RfRXvegAwyUnuYIHzwQx5)
 ## C
 dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
 ## Jawab
@@ -134,7 +136,7 @@ Var
 ```
 **Keterangan**  
 **Hasil**
-![.png](https://drive.google.com/uc?export=view&id=1zCHKcQcKmt22seYZaiox2CxkoWPm6XyS)
+![3d.png](https://drive.google.com/uc?export=view&id=1zCHKcQcKmt22seYZaiox2CxkoWPm6XyS)
 # Soal Nomor 4
 Diketahui nilai x = 2 dan v = 10. Tentukan:
 ## A
@@ -148,7 +150,7 @@ peluang4
 ```
 **Keterangan**  
 **Hasil**
-![.png](https://drive.google.com/uc?export=view&id=1G4W3oyX2v5SEOIAZP9lyTxmcCJ4gHCDg)
+![4a.png](https://drive.google.com/uc?export=view&id=1G4W3oyX2v5SEOIAZP9lyTxmcCJ4gHCDg)
 ## B
 Histogram dari Distribusi Chi-Square dengan 100 data random.
 ## Jawab
@@ -169,7 +171,7 @@ Var
 ```
 **Keterangan**  
 **Hasil**
-![.png](https://drive.google.com/uc?export=view&id=1sWNSgHBdVqEMgsceCUYTGeBSZlc5Xo2o)
+![4c.png](https://drive.google.com/uc?export=view&id=1sWNSgHBdVqEMgsceCUYTGeBSZlc5Xo2o)
 # Soal Nomor 5
 Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan
 ## A
