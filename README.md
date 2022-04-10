@@ -56,6 +56,7 @@ var=(1-p)/p^2
 var
 ```
 **Keterangan**  
+![1e.png](https://drive.google.com/uc?export=view&id=1BWSDOEzYYjTGO3j63v9ZYNnHOcyJQWDa)
 **Hasil**
 # Soal Nomor 2 
 Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
