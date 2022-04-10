@@ -15,7 +15,7 @@ peluang=dgeom(x,p,log=FALSE)
 peluang
 ```
 **Keterangan**  
-Fungsi dgeom yang digunakan untuk membuat plot kepadatan (density plot) geometrik yang pada dasarnya digunakan karena faktor distribusi eksponensial dan distribusi normal.  
+Fungsi dgeom yang digunakan untuk membuat plot kepadatan (density plot) geometrik yang pada dasarnya digunakan karena faktor x dan p.  
 **Hasil**  
 ![1a.png](https://drive.google.com/uc?export=view&id=1KC_Z3rUSzBdrIjmZKC7DAQTh0IJ25sbO)  
 ## B
@@ -73,7 +73,7 @@ peluang2=dbinom(sembuh,pasien,p_sembuh,log=FALSE)
 peluang2
 ```
 **Keterangan**  
-Fungsi dbinom yang digunakan untuk membuat plot kepadatan (density plot) binomial yang pada dasarnya digunakan karena faktor distribusi eksponensial dan distribusi normal.  
+Fungsi dbinom yang digunakan untuk membuat plot kepadatan (density plot) binomial yang pada dasarnya digunakan karena faktor pasien, p_sembuh dan sembuh.  
 **Hasil**  
 ![2a.png](https://drive.google.com/uc?export=view&id=1tL9zYkASPkuFu_k9YgHmUa_UOHgRuPt8)
 ## B
@@ -116,7 +116,7 @@ peluang3=dpois(peluang_bayilahir,history_bayilahir)
 peluang3
 ```
 **Keterangan**  
-Fungsi dpois yang digunakan untuk membuat plot kepadatan (density plot) poisson yang pada dasarnya digunakan karena faktor distribusi eksponensial dan distribusi normal.  
+Fungsi dpois yang digunakan untuk membuat plot kepadatan (density plot) poisson yang pada dasarnya digunakan karena faktor history_bayilahir dan peluang_bayilahir.  
 **Hasil**
 ![3a.png](https://drive.google.com/uc?export=view&id=1HGhCWTXy5a9nVZIP6DWbka2Igwkro3_p)
 ## B
@@ -163,9 +163,9 @@ peluang4=dchisq(x,v,ncp=0,log=FALSE)
 peluang4
 ```
 **Keterangan**  
-Fungsi dchisq yang digunakan untuk membuat plot kepadatan (density plot) chi-squeare yang pada dasarnya digunakan karena faktor distribusi eksponensial dan distribusi normal.  
-**Hasil**
-![4a.png](https://drive.google.com/uc?export=view&id=1G4W3oyX2v5SEOIAZP9lyTxmcCJ4gHCDg)
+Fungsi dchisq yang digunakan untuk membuat plot kepadatan (density plot) chi-squeare yang pada dasarnya digunakan karena faktor x dan v.  
+**Hasil**  
+![4a.png](https://drive.google.com/uc?export=view&id=1G4W3oyX2v5SEOIAZP9lyTxmcCJ4gHCDg)  
 ## B
 Histogram dari Distribusi Chi-Square dengan 100 data random.
 ## Jawab
