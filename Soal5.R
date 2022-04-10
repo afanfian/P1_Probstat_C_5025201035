@@ -19,7 +19,6 @@ set.seed(1)
 hist(rexp(10000))
 
 #C
-# 5c
 lambda = 3
 set.seed(1)
 rataan <- 1 / lambda
