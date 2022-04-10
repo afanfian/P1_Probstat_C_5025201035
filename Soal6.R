@@ -35,5 +35,8 @@ paste("x2 adalah", x2)
 h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201035_Fian Awamiry Maulana_C_DNhistogram")
 
 #C
-varian = sd * sd
+varian = sd *sd
 paste("varian adalah", varian)
+
+# Referensi: 
+# https://www.rumusstatistik.com/2013/07/rumus-distribusi-eksponensial.html
