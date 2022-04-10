@@ -199,17 +199,17 @@ Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Te
 ## A
 Fungsi Probabilitas dari Distribusi Exponensial
 ## Jawab  
-'''R
+```R
 lambda = 3
 set.seed(1)
 rexp(lambda)
-'''  
+```  
 **Keterangan**  
 **Hasil**
 ## B
 Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
 ## Jawab  
-'''R
+```R
 par(mfrow = c(2,2))
 
 set.seed(1)
@@ -223,7 +223,7 @@ hist(rexp(1000))
 
 set.seed(1)
 hist(rexp(10000))
-'''  
+```  
 **Keterangan**  
 **Hasil**  
 ## C
@@ -231,7 +231,7 @@ Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 da
 ● Gunakan set.seed(1)
 ● Gunakan fungsi bawaan R
 ## Jawab  
-'''R
+```R
 lambda = 3
 set.seed(1)
 rataan <- 1 / lambda
@@ -239,7 +239,7 @@ rataan
 set.seed(1)
 varian <- 1 / (lambda * lambda)
 varian
-'''  
+``` 
 **Keterangan**  
 **Hasil**
 
@@ -258,7 +258,7 @@ rata-rata = 5.083333
 X1 = 5
 X2 = 6
 ## Jawab  
-'''R
+```R
 n = 100
 m = 50
 sd = 8
@@ -288,7 +288,7 @@ result = plot(z_array, type='l')
 paste("Rata-rata adalah", m)
 paste("x1 adalah", x1)
 paste("x2 adalah", x2)
-'''  
+```  
 **Keterangan**  
 **Hasil**  
 ## B
@@ -297,17 +297,17 @@ NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
 Contoh :
 312312312_Rola_Probstat_A_DNhistogram
 ## Jawab  
-'''R
+```R
 h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201035_Fian Awamiry Maulana_C_DNhistogram")
-'''  
+``` 
 **Keterangan**  
 **Hasil**  
 ## C
 Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
 ## Jawab  
-'''R
+```R
 varian = sd * sd
 paste("varian adalah", varian)
-'''  
+```  
 **Keterangan**  
 **Hasil**
