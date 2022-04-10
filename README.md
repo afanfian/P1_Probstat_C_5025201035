@@ -244,6 +244,8 @@ varian <- 1 / (lambda * lambda)
 varian
 ``` 
 **Keterangan**  
+Untuk referensi rumus saya melihat dari sumber berikut:  
+https://www.rumusstatistik.com/2013/07/rumus-distribusi-eksponensial.html  
 **Hasil**  
 ![5c.png](https://drive.google.com/uc?export=view&id=1wEO2YJPLNcE7z5Nj4Lzn8_EZbaUqju-H)  
 # Soal Nomor 6
@@ -317,5 +319,7 @@ varian = sd * sd
 paste("varian adalah", varian)
 ```  
 **Keterangan**  
+Untuk referensi rumus saya melihat dari sumber berikut:  
+https://www.rumusstatistik.com/2013/07/rumus-distribusi-normal-distribusi-gauss.html  
 **Hasil**  
 ![6c.png](https://drive.google.com/uc?export=view&id=1BlrhSCdNQB_Qyu-qeqLgMVf-0ukoYMEv)  
