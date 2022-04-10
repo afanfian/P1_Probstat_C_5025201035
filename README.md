@@ -15,6 +15,7 @@ peluang=dgeom(x,p)
 peluang
 ```
 **Keterangan**  
+Fungsi dgeom yang digunakan untuk membuat plot kepadatan (density plot) geometrik yang pada dasarnya digunakan karena faktor distribusi eksponensial dan distribusi normal.  
 **Hasil**  
 ## B
 mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
@@ -22,8 +23,7 @@ mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribu
 ```R
 mean(rgeom(n = 10000, p=0.20) == 3
 ```
-**Keterangan**  
-Fungsi rgeom pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi geometrik
+**Keterangan**
 **Hasil**  
 ![1b.png](https://drive.google.com/uc?export=view&id=155gyjLwXgZzcC8SY34sqRgrAR9H1Ljtu)
 ## C
@@ -39,6 +39,7 @@ set.seed(0)
 hist(rgeom(x,p),xlab="X",main="Histogram of Geometric")
 ```
 **Keterangan**  
+Fungsi rgeom pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi geometrik.  
 **Hasil**  
 Menggunakan seet.seed (0) dia tidak akan berubah  
 ![1d-1.png](https://drive.google.com/uc?export=view&id=1GmBc4bs7hZfeMCpZDvKV-0i67_GQERcU)  
@@ -68,6 +69,7 @@ peluang2=dbinom(sembuh,pasien,p_sembuh,log=FALSE)
 peluang2
 ```
 **Keterangan**  
+Fungsi dbinom yang digunakan untuk membuat plot kepadatan (density plot) binomial yang pada dasarnya digunakan karena faktor distribusi eksponensial dan distribusi normal.  
 **Hasil**  
 ![2a.png](https://drive.google.com/uc?export=view&id=1tL9zYkASPkuFu_k9YgHmUa_UOHgRuPt8)
 ## B
@@ -77,8 +79,8 @@ Gambarkan grafik histogram berdasarkan kasus tersebut.
 set.seed(0)
 hist(rbinom(sembuh,pasien,p_sembuh),xlab="X",ylab="Frequency",main="Histogram of Binomial")
 ```
-**Keterangan** 
-Fungsi rbinom pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi binomial  
+**Keterangan**  
+Fungsi rbinom pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi binomial.  
 **Hasil**  
 Menggunakan seet.seed (0) dia tidak akan berubah  
 ![2b-1.png](https://drive.google.com/uc?export=view&id=1qf1s006EI6MtmOWH2VbJCt12BSf4sTlj)  
@@ -108,6 +110,7 @@ peluang3=dpois(peluang_bayilahir,history_bayilahir)
 peluang3
 ```
 **Keterangan**  
+Fungsi dpois yang digunakan untuk membuat plot kepadatan (density plot) poisson yang pada dasarnya digunakan karena faktor distribusi eksponensial dan distribusi normal.  
 **Hasil**
 ![3a.png](https://drive.google.com/uc?export=view&id=1HGhCWTXy5a9nVZIP6DWbka2Igwkro3_p)
 ## B
@@ -119,7 +122,7 @@ n=356
 hist(rpois(n,history_bayilahir),main="Histogram of Poisson")
 ```
 **Keterangan**  
-Fungsi rpois pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi poisson  
+Fungsi rpois pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi poisson.  
 **Hasil**  
 Menggunakan seet.seed (0) dia tidak akan berubah  
 ![3b-1.png](https://drive.google.com/uc?export=view&id=1BOoLQ_Ohd7uLM97Wt68iuy6E8OSm_XlD)  
@@ -152,6 +155,7 @@ peluang4=dchisq(x,v,ncp=0,log=FALSE)
 peluang4
 ```
 **Keterangan**  
+Fungsi dchisq yang digunakan untuk membuat plot kepadatan (density plot) chi-squeare yang pada dasarnya digunakan karena faktor distribusi eksponensial dan distribusi normal.  
 **Hasil**
 ![4a.png](https://drive.google.com/uc?export=view&id=1G4W3oyX2v5SEOIAZP9lyTxmcCJ4gHCDg)
 ## B
@@ -162,7 +166,7 @@ set.seed(0)
 hist(rchisq(v,n=100),xlab="X", ylab="V", main="Histogram of Chis-quare")
 ```
 **Keterangan**  
-Fungsi rgeom pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi chis-quare  
+Fungsi rgeom pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi chis-quare.  
 **Hasil**
 Menggunakan seet.seed (0) dia tidak akan berubah  
 ![4b-1.png](https://drive.google.com/uc?export=view&id=1FqjvXpSxO31VLNnIo9WgXWfD_9ravyEq)  
