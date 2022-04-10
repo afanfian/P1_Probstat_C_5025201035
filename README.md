@@ -30,7 +30,7 @@ mean(rgeom(n = 10000, p=0.20) == 3
 ## C
 Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
 ## Jawab 
-Jadi, kesimpulan dari poin a dan b adalah ...
+Jadi, kesimpulan dari poin a dan b adalah idak terlalu jauh, bedanya kalau a itu nilainya tetap sedangkan kalau b itu hasilnya random, besar kecil nilainya ditentukan oleh X.  
 ## D
 Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
 ## Jawab 
@@ -56,6 +56,8 @@ var=(1-p)/p^2
 var
 ```
 **Keterangan**  
+Untuk referensi rumus saya melihat dari sumber berikut:  
+https://www.rumusstatistik.com/2012/07/rumus-distribusi-geometrik.html  
 ![1e.png](https://drive.google.com/uc?export=view&id=1BWSDOEzYYjTGO3j63v9ZYNnHOcyJQWDa)
 **Hasil**
 # Soal Nomor 2 
@@ -98,6 +100,8 @@ Var=pasien*p_sembuh*(1-p_sembuh)
 Var
 ```
 **Keterangan**  
+Untuk referensi rumus saya melihat dari sumber berikut:  
+https://www.rumusstatistik.com/2012/07/rumus-distribusi-binomial.html  
 **Hasil**  
 ![2c.png](https://drive.google.com/uc?export=view&id=1PIBu7wNExc1FpKaxLC6efNShw6tdx20S)
 # Soal Nomor 3 
@@ -132,8 +136,8 @@ Tidak menggunakan seet seed (0)
 ![3b-1.png](https://drive.google.com/uc?export=view&id=1ncqsdxl6-f8RfRXvegAwyUnuYIHzwQx5)
 ## C
 dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
-## Jawab
-Jadi, kesimpulan dari perbandingan poin a dan b adalah ...
+## Jawab  
+Jadi, kesimpulan dari perbandingan poin a dan b adalah kurang lebih sama karena nilai proporsi yang didapatkan di poin A berada dalam range proporsi yang ada di poin B yaitu 0.10-0.15. Oleh karena itu, pengaruh perhitungan dengan estimasi selama 365 hari memberikan hasil yang mendekati dengan peluang bayi akan dilahirkan keesokan harinya.  
 ## D
 Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
 ## Jawab
@@ -143,6 +147,8 @@ E
 Var
 ```
 **Keterangan**  
+Untuk referensi rumus saya melihat dari sumber berikut: 
+https://www.rumusstatistik.com/2012/07/rumus-distribusi-poisson.html  
 **Hasil**
 ![3d.png](https://drive.google.com/uc?export=view&id=1zCHKcQcKmt22seYZaiox2CxkoWPm6XyS)
 # Soal Nomor 4
@@ -184,6 +190,8 @@ Var=v*2
 Var
 ```
 **Keterangan**  
+Untuk referensi rumus saya melihat dari sumber berikut:  
+https://www.rumusstatistik.com/2013/07/distribusi-khi-kuadrat-chi-square.html  
 **Hasil**
 ![4c.png](https://drive.google.com/uc?export=view&id=1sWNSgHBdVqEMgsceCUYTGeBSZlc5Xo2o)
 # Soal Nomor 5
