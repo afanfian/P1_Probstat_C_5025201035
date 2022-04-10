@@ -226,6 +226,7 @@ set.seed(1)
 hist(rexp(10000))
 ```  
 **Keterangan**  
+par(mfrow = c(2,2)): Membagi jendela grafik menajdi 2 baris dan 2 kolom  
 **Hasil**  
 ![5b.png](https://drive.google.com/uc?export=view&id=1eHbLuhyRoKVNK9MBPsKDFgPKuHrQ0fU3)  
 ## C
@@ -292,6 +293,7 @@ paste("x1 adalah", x1)
 paste("x2 adalah", x2)
 ```  
 **Keterangan**  
+par(mfrow = c(2,1)): Membagi jendela grafik menajdi 2 baris dan 1 kolom  
 **Hasil**  
 ![6a-1.png](https://drive.google.com/uc?export=view&id=1AET4xxY2yZ_Cm2TbAKahxWpcBWXoGCMf)  
 ![6a-2.png](https://drive.google.com/uc?export=view&id=1jvtMz4rxclt7HakjZILijVP4eAY4ZQxe)  
