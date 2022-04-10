@@ -11,12 +11,13 @@ Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksina
 ```R
 x=3
 p=0.20
-peluang=dgeom(x,p) 
+peluang=dgeom(x,p,log=FALSE) 
 peluang
 ```
 **Keterangan**  
 Fungsi dgeom yang digunakan untuk membuat plot kepadatan (density plot) geometrik yang pada dasarnya digunakan karena faktor distribusi eksponensial dan distribusi normal.  
 **Hasil**  
+![1a.png](https://drive.google.com/uc?export=view&id=1KC_Z3rUSzBdrIjmZKC7DAQTh0IJ25sbO)  
 ## B
 mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
 ## Jawab 
