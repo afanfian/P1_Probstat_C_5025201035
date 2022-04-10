@@ -160,6 +160,10 @@ hist(rchisq(x,v,n=100),main="Histogram of Chis-quare")
 ```
 **Keterangan**  
 **Hasil**
+Menggunakan seet.seed (0) dia tidak akan berubah  
+![4b-1.png](https://drive.google.com/uc?export=view&id=1FqjvXpSxO31VLNnIo9WgXWfD_9ravyEq)  
+Tidak menggunakan seet seed (0)  
+![4b-2.png](https://drive.google.com/uc?export=view&id=1jRm5GYIWSII7vtFue9OVjnr3kV9ZUqmz)
 ## C
 Nilai Rataan (μ) dan Varian (σ²) dari DistribusiChi-Square.
 ## Jawab
