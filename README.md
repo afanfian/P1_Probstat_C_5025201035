@@ -205,7 +205,8 @@ set.seed(1)
 rexp(lambda)
 ```  
 **Keterangan**  
-**Hasil**
+**Hasil**  
+![5a.png](https://drive.google.com/uc?export=view&id=1usWFd-fgVy-Zef91VB68_9tYurRkkvoq)  
 ## B
 Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
 ## Jawab  
@@ -226,6 +227,7 @@ hist(rexp(10000))
 ```  
 **Keterangan**  
 **Hasil**  
+![5b.png](https://drive.google.com/uc?export=view&id=1eHbLuhyRoKVNK9MBPsKDFgPKuHrQ0fU3)  
 ## C
 Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3 Petunjuk:
 ● Gunakan set.seed(1)
@@ -241,8 +243,8 @@ varian <- 1 / (lambda * lambda)
 varian
 ``` 
 **Keterangan**  
-**Hasil**
-
+**Hasil**  
+![5c.png](https://drive.google.com/uc?export=view&id=1wEO2YJPLNcE7z5Nj4Lzn8_EZbaUqju-H)  
 # Soal Nomor 6
 Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
 ## A
@@ -291,6 +293,8 @@ paste("x2 adalah", x2)
 ```  
 **Keterangan**  
 **Hasil**  
+![6a-1.png](https://drive.google.com/uc?export=view&id=1AET4xxY2yZ_Cm2TbAKahxWpcBWXoGCMf)  
+![6a-2.png](https://drive.google.com/uc?export=view&id=1jvtMz4rxclt7HakjZILijVP4eAY4ZQxe)  
 ## B
 Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan:
 NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
@@ -299,9 +303,10 @@ Contoh :
 ## Jawab  
 ```R
 h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201035_Fian Awamiry Maulana_C_DNhistogram")
-``` 
+```  
 **Keterangan**  
 **Hasil**  
+![6b.png](https://drive.google.com/uc?export=view&id=1r66_XCr37gaAURPImCPtbVuRRSIh32E8)  
 ## C
 Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
 ## Jawab  
@@ -310,4 +315,5 @@ varian = sd * sd
 paste("varian adalah", varian)
 ```  
 **Keterangan**  
-**Hasil**
+**Hasil**  
+![6c.png](https://drive.google.com/uc?export=view&id=1BlrhSCdNQB_Qyu-qeqLgMVf-0ukoYMEv)  
