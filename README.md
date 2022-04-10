@@ -23,6 +23,7 @@ mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribu
 mean(rgeom(n = 10000, p=0.20) == 3
 ```
 **Keterangan**  
+Fungsi rgeom pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi geometrik
 **Hasil**  
 ![1b.png](https://drive.google.com/uc?export=view&id=155gyjLwXgZzcC8SY34sqRgrAR9H1Ljtu)
 ## C
@@ -77,6 +78,7 @@ set.seed(0)
 hist(rbinom(sembuh,pasien,p_sembuh),xlab="X",ylab="Frequency",main="Histogram of Binomial")
 ```
 **Keterangan** 
+Fungsi rbinom pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi binomial  
 **Hasil**  
 Menggunakan seet.seed (0) dia tidak akan berubah  
 ![2b-1.png](https://drive.google.com/uc?export=view&id=1qf1s006EI6MtmOWH2VbJCt12BSf4sTlj)  
@@ -117,6 +119,7 @@ n=356
 hist(rpois(n,history_bayilahir),main="Histogram of Poisson")
 ```
 **Keterangan**  
+Fungsi rpois pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi poisson  
 **Hasil**  
 Menggunakan seet.seed (0) dia tidak akan berubah  
 ![3b-1.png](https://drive.google.com/uc?export=view&id=1BOoLQ_Ohd7uLM97Wt68iuy6E8OSm_XlD)  
@@ -156,9 +159,10 @@ Histogram dari Distribusi Chi-Square dengan 100 data random.
 ## Jawab
 ```R
 set.seed(0)
-hist(rchisq(x,v,n=100),main="Histogram of Chis-quare")
+hist(rchisq(v,n=100),xlab="X", ylab="V", main="Histogram of Chis-quare")
 ```
 **Keterangan**  
+Fungsi rgeom pada dasarnya digunakan untuk membangkitkan bilangan acak (generating random number) dalam distribusi chis-quare  
 **Hasil**
 Menggunakan seet.seed (0) dia tidak akan berubah  
 ![4b-1.png](https://drive.google.com/uc?export=view&id=1FqjvXpSxO31VLNnIo9WgXWfD_9ravyEq)  
