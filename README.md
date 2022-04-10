@@ -58,8 +58,8 @@ var
 **Keterangan**  
 Untuk referensi rumus saya melihat dari sumber berikut:  
 https://www.rumusstatistik.com/2012/07/rumus-distribusi-geometrik.html  
-![1e.png](https://drive.google.com/uc?export=view&id=1BWSDOEzYYjTGO3j63v9ZYNnHOcyJQWDa)
-**Hasil**
+**Hasil**  
+![1e.png](https://drive.google.com/uc?export=view&id=1BWSDOEzYYjTGO3j63v9ZYNnHOcyJQWDa)  
 # Soal Nomor 2 
 Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
 ## A
