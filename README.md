@@ -24,7 +24,7 @@ mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribu
 ```R
 mean(rgeom(n = 10000, p=0.20) == 3
 ```
-**Keterangan**
+**Keterangan**  
 **Hasil**  
 ![1b.png](https://drive.google.com/uc?export=view&id=155gyjLwXgZzcC8SY34sqRgrAR9H1Ljtu)
 ## C
