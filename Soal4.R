@@ -9,12 +9,12 @@ peluang4
 #B
 set.seed(0)
 #Menggunakan fungsi rchisq
-hist(rchisq(x,v,n=100),main="Histogram of Chis-quare")
+hist(rchisq(v,n=100),xlab="X", ylab="V", main="Histogram of Chis-quare")
 
 #C
-E=v #Nilai rata-rata
+E=v 
 E
-Var=v*2 #Nilai varian
+Var=v*2 
 Var
 
 #Referensi

@@ -1,8 +1,9 @@
 #A
+#Diketahui
 x=3
 p=0.20
 #Menggunakan fungsi dgeom
-peluang=dgeom(x,p) 
+peluang=dgeom(x,p,log=FALSE) 
 peluang
 
 #B
