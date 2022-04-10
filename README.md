@@ -198,19 +198,48 @@ https://www.rumusstatistik.com/2013/07/distribusi-khi-kuadrat-chi-square.html
 Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan
 ## A
 Fungsi Probabilitas dari Distribusi Exponensial
-## Jawab
+## Jawab  
+'''R
+lambda = 3
+set.seed(1)
+rexp(lambda)
+'''  
 **Keterangan**  
 **Hasil**
 ## B
 Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
-## Jawab
+## Jawab  
+'''R
+par(mfrow = c(2,2))
+
+set.seed(1)
+hist(rexp(10))
+
+set.seed(1)
+hist(rexp(100))
+
+set.seed(1)
+hist(rexp(1000))
+
+set.seed(1)
+hist(rexp(10000))
+'''  
 **Keterangan**  
-**Hasil**
+**Hasil**  
 ## C
 Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3 Petunjuk:
 ● Gunakan set.seed(1)
 ● Gunakan fungsi bawaan R
-## Jawab
+## Jawab  
+'''R
+lambda = 3
+set.seed(1)
+rataan <- 1 / lambda
+rataan
+set.seed(1)
+varian <- 1 / (lambda * lambda)
+varian
+'''  
 **Keterangan**  
 **Hasil**
 
@@ -228,19 +257,57 @@ Contoh data :
 rata-rata = 5.083333
 X1 = 5
 X2 = 6
-## Jawab
+## Jawab  
+'''R
+n = 100
+m = 50
+sd = 8
+x1 = 0
+x2 = 0
+
+par(mfrow = c(2,1))
+data = rnorm(n=n, mean=m, sd=sd)
+z_array = c()
+
+for (d in data)
+{
+  z = (d - m)/sd
+  z_array = append(z_array, z)
+  
+  if (d < m)
+  {
+    x1 = x1 + 1
+  }
+  else
+  {
+    x2 = x2 + 1
+  }
+}
+
+result = plot(z_array, type='l')
+paste("Rata-rata adalah", m)
+paste("x1 adalah", x1)
+paste("x2 adalah", x2)
+'''  
 **Keterangan**  
-**Hasil**
+**Hasil**  
 ## B
 Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan:
 NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
 Contoh :
 312312312_Rola_Probstat_A_DNhistogram
-## Jawab
+## Jawab  
+'''R
+h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201035_Fian Awamiry Maulana_C_DNhistogram")
+'''  
 **Keterangan**  
-**Hasil**
+**Hasil**  
 ## C
 Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
-## Jawab
+## Jawab  
+'''R
+varian = sd * sd
+paste("varian adalah", varian)
+'''  
 **Keterangan**  
 **Hasil**
