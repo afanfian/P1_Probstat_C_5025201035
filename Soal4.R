@@ -16,6 +16,6 @@ E=v
 E
 Var=v*2 
 Var
-
+s
 #Referensi
 #https://www.rumusstatistik.com/2013/07/distribusi-khi-kuadrat-chi-square.html
